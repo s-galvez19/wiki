@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+     background: rgb(214, 201, 201) url(images/bg.gif) no-repeat left top;
+     
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 40vw;
+    max-width: 40vw;
+}
+
+.logo{
+    border: 1px solid black;
+    min-width: 30vw;
+    min-height: 30vh;
+    margin-bottom: 2vh;
+}
+
+h1{
+    text-shadow: 3px 2px white;
+}
+
